@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Stack;
 
+
 public class Main {
     public static void main(String[] args) {
         //creo una pila de usuarios
@@ -43,6 +44,10 @@ public class Main {
         Usuario[] copia = new Usuario[pilaUsuarios.size()];
         pilaUsuarios.copyInto(copia);
         System.out.println("CopyInto: \n"+Arrays.toString(copia));
+
+        //Reverse: devuelve la pila en el orden inverso
+        //Stack<Usuario> reverseStack = reverse(pilaUsuarios);
+
 
         //Recorrer una pila
         do{
